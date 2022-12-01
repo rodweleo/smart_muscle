@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+     <form action="/NewServlet" method="post">
+                <div class="txt_field">
+                    <input type="text" id="username" name="adminUsername" required>
+                     <span></span>
+                    <label for="id">Username</label>
+                   
+                </div>
+                
+                <div class="txt_field">
+                    <input type="password" id="password" name="password" required>
+                    <span></span>
+                    <label for="id">Password</label>
+                    
+                    
+                </div>
+                
+                <hr>
+                <input type="submit" value="Admin Login">
+                
+                <div class="other-login">
+                   
+                    <a href="../member/login.jsp">Customer Login</a>
+                    <a href="../staff/login.jsp">Staff Login</a>
+                </div>
+               
+            </form>
+        
+    </body>
+</html>
